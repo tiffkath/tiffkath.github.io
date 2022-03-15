@@ -341,7 +341,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #ffffff00;
   font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 1.5;
@@ -1296,6 +1296,20 @@ table.alt tfoot {
   cursor: default;
 }
 
+/* Image gradients
+
+
+
+
+
+
+
+
+
+
+
+*/
+
 .poptrox-popup:before {
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -1303,7 +1317,7 @@ table.alt tfoot {
   transition: opacity 0.2s ease-in-out;
   background-image: -moz-linear-gradient(
       to left,
-      rgba(31, 34, 36, 0.35),
+      rgba(31, 34, 36, 0),
       rgba(31, 34, 36, 0) 10em,
       rgba(31, 34, 36, 0)
     ),
@@ -1311,16 +1325,11 @@ table.alt tfoot {
           10em, rgba(31, 34, 36, 0));
   background-image: -webkit-linear-gradient(
       to left,
-      rgba(31, 34, 36, 0.35),
+      rgba(31, 34, 36, 0),
       rgba(31, 34, 36, 0) 10em,
       rgba(31, 34, 36, 0)
     ),
-    -webkit-linear-gradient(to right, rgba(31, 34, 36, 0.35), rgba(
-            31,
-            34,
-            36,
-            0
-          )
+    -webkit-linear-gradient(to right, rgba(31, 34, 36, 0), rgba(31, 34, 36, 0)
           10em, rgba(31, 34, 36, 0));
   background-image: -ms-linear-gradient(
       to left,
@@ -1328,17 +1337,16 @@ table.alt tfoot {
       rgba(31, 34, 36, 0) 10em,
       rgba(31, 34, 36, 0)
     ),
-    -ms-linear-gradient(to right, rgba(31, 34, 36, 0.35), rgba(31, 34, 36, 0)
-          10em, rgba(31, 34, 36, 0));
+    -ms-linear-gradient(to right, rgba(31, 34, 36, 0), rgba(31, 34, 36, 0) 10em, rgba(31, 34, 36, 0));
   background-image: linear-gradient(
       to left,
-      rgba(31, 34, 36, 0.35),
+      rgba(31, 34, 36, 0),
       rgba(31, 34, 36, 0) 10em,
       rgba(31, 34, 36, 0)
     ),
     linear-gradient(
       to right,
-      rgba(31, 34, 36, 0.35),
+      rgba(31, 34, 36, 0),
       rgba(31, 34, 36, 0) 10em,
       rgba(31, 34, 36, 0)
     );
@@ -1407,22 +1415,22 @@ table.alt tfoot {
   padding: 2em 2em 0.1em 2em;
   background-image: -moz-linear-gradient(
     to top,
-    rgba(16, 16, 16, 0.45) 25%,
+    rgba(16, 16, 16, 0) 25%,
     rgba(16, 16, 16, 0) 100%
   );
   background-image: -webkit-linear-gradient(
     to top,
-    rgba(16, 16, 16, 0.45) 25%,
+    rgba(16, 16, 16, 0) 25%,
     rgba(16, 16, 16, 0) 100%
   );
   background-image: -ms-linear-gradient(
     to top,
-    rgba(16, 16, 16, 0.45) 25%,
+    rgba(16, 16, 16, 0) 25%,
     rgba(16, 16, 16, 0) 100%
   );
   background-image: linear-gradient(
     to top,
-    rgba(16, 16, 16, 0.45) 25%,
+    rgba(16, 16, 16, 0) 25%,
     rgba(16, 16, 16, 0) 100%
   );
   bottom: 0;
@@ -1443,7 +1451,7 @@ table.alt tfoot {
 }
 
 .poptrox-popup .caption p {
-  color: #ffffff;
+  color: #ff000000;
 }
 
 .poptrox-popup .loader {
@@ -1704,7 +1712,7 @@ body.is-preload #header {
   -ms-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
   border: 0;
-  color: #ffffff;
+  color: #ffffff00;
   display: inline-block;
   letter-spacing: 0.1em;
   padding: 0 1.65em;
@@ -1792,25 +1800,37 @@ body.is-preload #header {
   position: relative;
 }
 
+/* Unclicked Opacity
+
+
+
+
+
+
+
+
+
+
+*/
 #main .thumb:after {
   background-image: -moz-linear-gradient(
     to top,
-    rgba(10, 17, 25, 0.35) 5%,
+    rgba(10, 17, 25, 0) 5%,
     rgba(10, 17, 25, 0) 35%
   );
   background-image: -webkit-linear-gradient(
     to top,
-    rgba(10, 17, 25, 0.35) 5%,
+    rgba(10, 17, 25, 0) 5%,
     rgba(10, 17, 25, 0) 35%
   );
   background-image: -ms-linear-gradient(
     to top,
-    rgba(10, 17, 25, 0.35) 5%,
+    rgba(10, 17, 25, 0) 5%,
     rgba(10, 17, 25, 0) 35%
   );
   background-image: linear-gradient(
     to top,
-    rgba(10, 17, 25, 0.35) 5%,
+    rgba(10, 17, 25, 0) 5%,
     rgba(10, 17, 25, 0) 35%
   );
   pointer-events: none;

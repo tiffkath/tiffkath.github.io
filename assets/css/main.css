@@ -2658,7 +2658,22 @@ button:disabled,
   opacity: 0.25;
 }
 
-/* Tiles */
+/* Tiles 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 .tiles {
   display: -moz-flex;
@@ -3116,7 +3131,7 @@ body.is-touch .tiles article .content {
 
 #menu > .inner > ul > li {
   padding: 0;
-  border-top: solid 1px rgba(255, 255, 255, 0.15);
+  border-top: solid 1px rgba(255, 255, 255, 0);
 }
 
 #menu > .inner > ul > li a {
