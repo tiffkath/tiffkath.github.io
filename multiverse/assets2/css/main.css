@@ -336,11 +336,19 @@ p {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
+  color: #000000;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
+
+h2 {
   color: #ffffff00;
   font-weight: 300;
   letter-spacing: 0.1em;
